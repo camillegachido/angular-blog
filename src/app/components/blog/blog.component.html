@@ -1,0 +1,4 @@
+<app-add-post (addEvent)="callFromChild($event)"></app-add-post>
+<section>
+  <app-blog-post *ngFor="let item of blogPosts" [post]="item"></app-blog-post>
+</section>

@@ -1,0 +1,11 @@
+article{
+  width: 250px;
+}
+
+img:first-of-type{
+  width: 100%;
+}
+
+.curtida{
+  width: 20px;
+}
